@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2>Detect Signature</h2>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="image">Upload Image</label>
+                <input type="file" name="image" class="form-control-file" id="image" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Detect</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
