@@ -78,9 +78,8 @@ The application will be available at `http://127.0.0.1:5009`.
 ### Detect Signature
 
 1. After logging in, go to `http://127.0.0.1:5009/detect_signature`.
-2. Upload an image and click "Detect".
+2. Upload an image and click "Detect". You can use the example image `signature_example.png` from the `task_5` directory for testing.
 3. The response will contain the coordinates of the detected signatures and URLs of the cropped signature images.
-
 
 ## Task 5: Standalone Signature Detection Script
 
@@ -101,5 +100,4 @@ A standalone script for signature detection is provided in the `task_5` director
     ```
 
 3. Enter the path to the image when prompted. If no path is provided, the script will use the default image `signature_example.png` located in the `task_5` directory. The script will process the image and output the coordinates of the detected signatures.
-
 
