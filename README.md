@@ -102,14 +102,4 @@ A standalone script for signature detection is provided in the `task_5` director
 
 3. Enter the path to the image when prompted. If no path is provided, the script will use the default image `signature_example.png` located in the `task_5` directory. The script will process the image and output the coordinates of the detected signatures.
 
-## Configuration
 
-### instance/config.py
-
-```python
-import os
-
-class Config:
-    SECRET_KEY = os.urandom(24)
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///signature_detection.db'
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
