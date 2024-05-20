@@ -11,7 +11,7 @@ This project provides a web service for detecting signatures in scanned document
 
 ## Requirements
 
-- Python 3.6+
+- Python
 - Flask
 - Flask-SQLAlchemy
 - Flask-Login
